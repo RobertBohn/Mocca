@@ -1,0 +1,79 @@
+/* 
+Theme Name: Mocca
+Theme URI: http://www.robertbohn.com/
+Description: Mocca Theme
+Version: 1.0
+Author: Robert Bohn
+Author URI: http://www.robertbohn.com
+*/
+
+/* Credits*/
+/* A fluid template for business or fun */
+/* Original Design By Dave Reeder, www.davereederdesign.com */
+/* Hint of fMulti theme by http://www.fahlstad.se */
+
+/* Page Wide Settings */
+body { margin: 0; padding: 0; background: #262626; }
+* {margin: 0; padding: 0; border: 0px none; font-family: "Trebuchet MS", Arial, sans-serif }
+h1, h2, h3, span#copyright, span#contact { margin: 0 10px; color: #fff; font-weight: normal; text-decoration: none; background: transparent }
+p { margin: 0 0 1em; padding: 0; line-height: 1.4em; font-size: 0.8em; }
+h1 { font-size: 1.3em; line-height: 1.4em; letter-spacing: 0.25em }
+h2 { font-size: 1.0em; line-height: 1.4em; color: #FFA000 }
+h3 { font-size: 0.8em; line-height: 1.4em; color: #FFA000 }
+ol li { list-style: decimal outside; }
+a, a:visited { color: #fff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Main Blog Divisions */
+#wrapper { max-width: 1200px; min-width: 800px; background-color: #2E3233; margin-left:auto; margin-right:auto; }        
+#header { width: 100%; height: 120px; background: url('images/hdr.gif') repeat-x; }
+#topborder { width: 100%; height: 5px; background-color: #262626; }
+#middle { padding-top: 10px;  }
+#menu { float:right; width: 17%; border: 1px solid #3e4243; }
+#content { width: 81%; }
+#bottomborder { width: 100%; height: 5px; background-color: #262626; clear: both; }
+#footer { clear: right; width: 100%; height: 45px; background: url('images/hdr.gif') repeat-x; }
+
+/* Header Specific */
+#headertitle { padding-left: 15px; padding-top: 10px; }
+#header a {color: #06FF00; text-decoration: none; font-weight: normal;}
+#header a strong {color: #fff; text-decoration: none; font-weight: normal;}
+#header a:hover {color: #fff; text-decoration: none; font-weight: normal;}
+#header a:hover strong {color: #06FF00; text-decoration: none; font-weight: normal;}
+
+/* Footer Specific */
+#license img { float: left; margin-top: 8px; margin-left: 10px; } 
+#contact img { float: right; margin-top: 8px; margin-right: 10px; } 
+
+/* Blog Entry Specific */
+.entry { background-color: #2E3233; border: 1px solid #3e4243; padding: 10px; color:#FFFFFF; }
+.entry img { border:solid 1px #cccccc; padding:2px; margin: 0 10px 10px 10px; }       
+.entry ul { margin: 0 0 10px 10px; }
+.entry li { font-size: 0.8em; list-style-image: url('images/bull.gif'); }
+.entry a { font-weight: bold; }
+.entrycontent { padding-left: 10px; }
+
+h3.entrytitle { padding: 0; margin-bottom: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 20px; line-height: 1.1em; }	
+h3.entrytitle a, h3.entrytitle a:visited { color: #FFA200; text-decoration: none; }
+h3.entrytitle  a:hover{	color: #FFA200;	text-decoration: underline; }
+h3 a { text-decoration: none; border: 0px none; color: #FFA200; }
+div .entrybody h3, div .entrybody h2{ margin-bottom:10px; color:#B37100; }
+h3 a:hover { text-decoration: none; border: 0px none; text-shadow: none; color: #333; }
+.entrymeta { font-size: 11px; margin-bottom: 15px; color:#FFFFFF; }
+.entrymeta a { font-weight: bold; }
+
+/* Entry Seperator */
+.entryseperator { width: 100%; height: 20px; background-color: #2E3233; }
+
+/* Menu Specific */
+#sidebar { background-color: #2E3233; padding:15px; color:#dddddd; line-height: 1.4em; font-size: 0.8em; }
+#sidebar h2 { font-weight: bold; text-transform: uppercase; color: #dddddd; font-size: 110%; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #555; margin-bottom: 10px; }
+#sidebar p { margin: 7px; color:#999999; line-height: 1.4em; }
+#sidebar a, #sidebar a:visited { color:#ffa200; text-decoration:none; }
+#sidebar a:hover { color:#ffa200; text-decoration:underline; }	
+#sidebar ul li { list-style-type: none; list-style-image: url('none'); margin-bottom: 15px; margin-left: 10px }
+#sidebar ul p, #sidebar ul select { margin: 5px 0 8px; }
+#sidebar ul ul, #sidebar ul ol { margin: 5px 0 0 10px; }
+#sidebar ul ul ul, #sidebar ul ol { margin: 0 0 0 10px; }
+#sidebar ul ol li { list-style: decimal outside; }
+#sidebar ul ul li, #sidebar ul ol li { margin-top: 3px; margin-right: 0em; margin-bottom: 0em; margin-left: 0.5em; padding-top: 0.1em; padding-right: 0; padding-bottom: 0.1em; padding-left: 0; list-style-type: none; list-style-position: outside; list-style-image: url('images/bull.gif'); }
